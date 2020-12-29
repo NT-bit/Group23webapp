@@ -1,0 +1,143 @@
+
+.register {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebebeb;
+}
+
+.form-register {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: #111;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 1.4em;
+}
+
+label {
+  font-size: 0.8em;
+ 
+  color: #222;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none; 
+  margin-bottom: 0.7em;
+  border: 1px solid #cfcfcf;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  font-family: Roboto, sans-serif;
+  color: #999;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+
+.firstNameInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-right: 1%;
+  width: 49%;
+}
+
+.lastNameInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-left: 1%;
+  width: 49%;
+}
+
+.userNameInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+
+.emailInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.phoneInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.passwordInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.confirmpasswordInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.createAccount {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createAccount button {
+  background-color: #003790;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 0.25em;
+}
+
+.createAccount button:hover {
+  color: #fff;
+  background-color: #134aa1;
+  border: 2px solid #fff;
+}
